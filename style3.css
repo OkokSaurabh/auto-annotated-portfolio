@@ -1,0 +1,42 @@
+.nav{
+  width:100%;
+ display: grid;
+ grid-template-columns: 40% 5% 5% 5% 5%;
+justify-content: space-evenly;
+ font-size: 10px;
+ background-color: #A990FF;
+ 
+}
+.a, .b{
+  text-align: center;
+}
+.img1{
+  height: 300px;
+  width : 300px;
+}
+.target2{
+  display:flex;
+  text-align: center;
+}
+.aimg, .bimg{  
+  overflow: visible;
+  width: 270px;
+height: 270px;
+}
+.target3, .target4{
+  text-align: center;
+  
+}
+.gimg{
+  height: 350px;
+  width: 280px;
+}
+.footer{
+  width :100%;
+  display: grid;
+  grid-template-columns: 50% 30% 10%;
+  justify-content: space-between;
+  font-size: 10px;
+  background-color:#A990FF;
+  
+}

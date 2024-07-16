@@ -1,0 +1,32 @@
+
+.container .flex{
+  display: flex;
+  justify-content: space-between;
+}
+.out {
+  font-size:30px;
+}
+.container, .Name{
+  background-color: #AB00FB;
+}
+.container2{
+ overflow: visible;
+  display: grid;
+  grid-template-columns:60% 40%;
+}
+.im{
+ width: 400px;
+ height: 500px;
+ clip-path: circle();
+}
+
+
+.footer{
+  width :100%;
+  display: grid;
+  grid-template-columns: 50% 30% 10%;
+  justify-content: space-between;
+  font-size: 10px;
+  background-color:#A990FF;
+  
+}
