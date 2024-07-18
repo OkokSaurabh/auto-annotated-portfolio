@@ -10,7 +10,7 @@ justify-content: space-evenly;
 .a, .b{
   text-align: center;
 }
-.img1{
+.img1, .cimg{
   height: 300px;
   width : 300px;
 }
@@ -39,4 +39,38 @@ height: 270px;
   font-size: 10px;
   background-color:#A990FF;
   
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  * {
+    font-size: 1rem;
+  }
+
+  body {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: 5;
+    overflow-x: 5;
+  }
+
+  .nav{
+    height: 25vh;
+  
+    display: flex;
+    gap: -10px;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+   margin-top: -10px;
+  }
+  .cimg{
+    width: 200px;
+    
+  }
+  .nava, .navb, .navc, .navd{
+    margin: 0 -15 -10 -20;
+    margin-top: -15px;
+    
+  }
+
 }
